@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Anastasija's Quiz!</title>
+  <link href ="css.css" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Anastasija's Quiz!</h1>
+
+<form id="quiz" name="quiz">
+
+  <p class="questions"> What is Anastasija's last name?</p>
+  <input id="textbox" type="text" name="question1">
+
+<p class="questions">How old is Anastasija?</p>
+  <input type="radio" id="mc" name="question2" value="21">21<br>
+  <input type="radio" id="mc" name="question2" value="20">20<br>
+  <input type="radio" id="mc" name="question2" value="22">22<br>
+  <input type="radio" id="mc" name="question2" value="19">19<br>
+
+  <p>What's her favourite Movie?</p>
+  <input type="radio" id="mc" name="question3" value="Joker">Joker<br>
+  <input type="radio" id="mc" name="question3" value="Harry Potter">Harry Potter<br>
+  <input type="radio" id="mc" name="question3" value="JohnWick">John Wick<br>
+  <input type="radio" id="mc" name="question3" value="Avengers">Avengers<br>
+
+
+  <input id="button" type="button" value="I'm finished" onclick="check();">
+</form>
+  <div id="after_submit">
+    <p id="number_correct"></p>
+    <p id="message"></p>
+    <img id="picture">
+  </div>
+
+
+
+</body>
+</html>
